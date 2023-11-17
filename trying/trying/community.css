@@ -1,0 +1,419 @@
+#chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  height: 600px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#chatbot-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.interact-with-your {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: capitalize;
+}
+.chatbot-box {
+  border: 0;
+  background-color: slateblue;
+  font-weight: 500;
+  font-family: var(--big-heading-font);
+  font-size: var(--font-size-lg);
+  position: absolute;
+  top: 0;
+  left: 501px;
+  width: 420px;
+  height: 583px;
+}
+.chatbot,
+.zoom-logo-icon {
+  position: absolute;
+  top: 402px;
+  left: 98px;
+  width: 921px;
+  height: 583px;
+}
+.zoom-logo-icon {
+
+  top: 0;
+  left: 500px;
+  width: 200px;
+  height: 70px;
+  object-fit:contain;
+}
+.live-video-call {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  text-transform: capitalize;
+}
+.video-call {
+  position: absolute;
+  top: 282px;
+  left: 98px;
+  width: 663.19px;
+  height: 50px;
+}
+.join-our-doubt {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  text-transform: capitalize;
+}
+.whatsapp-logo-icon {
+  position: absolute;
+  top: 0;
+  left: 500px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.slack-logo-icon,
+.telegram-logo-icon {
+  position: absolute;
+  top: 10px;
+  left: 675px;
+  width: 155.2px;
+  height: 40px;
+  object-fit: cover;
+}
+.telegram-logo-icon {
+  top: 0;
+  left: 590px;
+  width: 50px;
+  height: 50px;
+}
+.whatsapp-logo-icon:hover{
+  opacity: 0.8;
+  scale:1.05;
+}
+.telegram-logo-icon:hover{
+  opacity:0.8;
+  scale:1.05;
+}
+#zoom_icon:hover{
+  opacity:0.8;
+  scale:1.05;
+}
+.doubt-support-community,
+.navbar-bg-box1 {
+  position: absolute;
+  top: 162px;
+  left: 98px;
+  width: 830.2px;
+  height: 50px;
+}
+.navbar-bg-box1 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 80px;
+}
+.profile-button-icon1 {
+  position: absolute;
+  top: 26px;
+  left: 1364px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+}
+.profile-button-icon1:hover{
+  scale:1.2;
+}
+.community3,
+.more2 {
+  position: absolute;
+  top: 26px;
+  left: 1015px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.community3 {
+  left: 798px;
+  color: var(--color-mediumslateblue);
+}
+.our-courses2 {
+  position: absolute;
+  top: 26px;
+  left: 599px;
+  cursor: pointer;
+}
+.enroll-now1,
+.log-out1,
+.our-courses2 {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.enroll-now1 {
+  position: absolute;
+  top: 26px;
+  left: 419px;
+  cursor: pointer;
+}
+.enroll-now1:hover{
+  color:slateblue;
+}
+#ourCoursesText:hover{
+  color:slateblue;
+}
+.log-out1 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--big-heading-font);
+  color: var(--color-white);
+  text-align: left;
+}
+.login-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-7xl);
+  background-color: var(--color-mediumslateblue);
+  position: absolute;
+  top: 24px;
+  left: 1205px;
+  border-radius: var(--br-4xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.login-button1:hover{
+  background-color: darkblue;
+}
+.school2 {
+  position: absolute;
+  top: 0;
+  left: 149px;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+}
+.coding-image-icon1 {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 143px;
+  height: 33px;
+  object-fit: cover;
+}
+.coding-school2 {
+  position: absolute;
+  top: 16px;
+  left: 17px;
+  width: 280px;
+  height: 48px;
+  cursor: pointer;
+  font-size: var(--font-size-13xl);
+}
+.nav-bar-section1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  font-size: var(--font-size-lg);
+}
+.blue-tile1 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 725px);
+  background-color: var(--color-darkslateblue);
+  width: 1450px;
+  height: 424px;
+}
+.coding-school-icon-footer-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 384px;
+  height: 128px;
+}
+.coding-school3 {
+  position: absolute;
+  top: 30px;
+  left: 46px;
+  -webkit-text-stroke: 1px #fffdfd;
+}
+.coding-school-icon-footer1 {
+  position: absolute;
+  top: -107px;
+  left: 72px;
+  width: 384px;
+  height: 128px;
+  display: none;
+  font-size: var(--big-heading-font-size);
+  color: var(--color-gray-100);
+}
+.viditgmailcom1 {
+  margin: 0;
+}
+.contact-us1,
+.emails1 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 87.5px);
+}
+.contact-us1 {
+  bottom: 96px;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+}
+.contact-section1 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 246px);
+  width: 175px;
+  height: 134px;
+}
+.linkedin-svg-icon1 {
+  position: absolute;
+  bottom: -1147px;
+  left: calc(50% + 1068px);
+  width: 23px;
+  height: 23px;
+  overflow: hidden;
+  display: none;
+}
+.codingschoolgmailcom1,
+.get-in-touch1 {
+  position: absolute;
+  left: calc(50% - 132px);
+}
+.codingschoolgmailcom1 {
+  bottom: 0;
+  display: inline-block;
+  width: 264px;
+}
+.get-in-touch1 {
+  bottom: 42px;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+}
+.get-in-touch-section1 {
+  position: absolute;
+  bottom: 52px;
+  left: calc(50% - 18px);
+  width: 264px;
+  height: 80px;
+  font-size: var(--font-size-mid);
+}
+.footer-column-31 {
+  position: absolute;
+  bottom: 194px;
+  left: calc(50% + 213px);
+  width: 492px;
+  height: 134px;
+}
+.community4,
+.menu1,
+.more3,
+.our-courses3 {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+  height: 23.12px;
+}
+.our-courses3 {
+  bottom: 92.49px;
+  left: calc(50% - 56px);
+  width: 112px;
+  cursor: pointer;
+}
+.community4,
+.menu1,
+.more3 {
+  left: calc(50% - 55px);
+}
+.community4 {
+  bottom: 46.25px;
+  width: 109px;
+  cursor: pointer;
+}
+.menu1,
+.more3 {
+  bottom: 0;
+  width: 46px;
+}
+.menu1 {
+  bottom: 134.46px;
+  left: calc(50% - 56px);
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  width: 71px;
+  height: 32.54px;
+}
+.footer-column-21 {
+  position: absolute;
+  bottom: 161px;
+  left: calc(50% - 33px);
+  width: 112px;
+  height: 167px;
+}
+.coding-school-is-container1 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 236px);
+}
+.footer-column-11 {
+  position: absolute;
+  bottom: 94px;
+  left: calc(50% - 627px);
+  width: 472px;
+  height: 135px;
+}
+.school3 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% + 5.5px);
+  letter-spacing: 0.01em;
+  font-weight: 300;
+}
+.coding-footer-logo1 {
+  position: absolute;
+  bottom: 13.86px;
+  left: calc(50% - 168.5px);
+  width: 164.64px;
+  height: 32.16px;
+  object-fit: cover;
+}
+.coding-school-footer1,
+.footer1 {
+  position: absolute;
+  bottom: 268px;
+  left: calc(50% - 619px);
+  width: 337px;
+  height: 60px;
+  font-size: var(--big-heading-font-size);
+}
+.footer1 {
+  bottom: 0;
+  left: calc(50% - 720px);
+  width: 1450px;
+  height: 424px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.community2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--big-heading-font);
+}

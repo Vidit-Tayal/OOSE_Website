@@ -1,0 +1,54 @@
+.login-button4 {
+    cursor: pointer;
+  position: absolute;
+    border: 0;
+    padding: var(--padding-7xs) var(--padding-7xl);
+    background-color: var(--color-mediumslateblue);
+    top: 660px;
+    left: 44%;
+    border-radius: var(--br-4xl);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .login-button4:hover{
+    background-color: darkblue;
+  }
+  .submit1 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: var(--big-heading-font);
+    color: var(--color-white);
+    text-align: left;
+  }
+  
+
+.login3 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-family: var(--big-heading-font);
+    color: var(--color-white);
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    cursor: pointer;
+    left: 20%;
+}
+
+.downloads3 {
+    position: absolute;
+    top: 0;
+    left: 8.25%;
+    font-size: var(--font-size-5xl);
+    font-weight: 600;
+    color: slateblue;
+    font-family: var(--big-heading-font);
+}
+h1{
+    margin-left:40%;
+    font-family: var(--big-heading-font);
+}

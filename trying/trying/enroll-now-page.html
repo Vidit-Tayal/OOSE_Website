@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./enroll-now-page.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" />
+  <title>Coding School 🔥</title>
+  
+</head>
+
+<body>
+  <div class="enroll-now-page">
+    <div class="big-rect3">
+      <div class="big-enroll-rect"></div>
+      <button class="enroll-now-button" onclick="saveFile()">
+        <div class="enroll-now6">Enroll Now</div>
+      </button>
+      <div class="enrol-email">
+        <input type="text" id="email" class="password-rect" placeholder ="Email" required>
+        <div class="username-email">Email Address</div>
+      </div>
+      <div class="enrol-lastname">
+        <input type="text" id="lname" class="password-rect" placeholder ="Last Name" required>
+        <div class="username-email">Last Name</div>
+      </div>
+      <div class="enrol-firstname">
+        <input type="text" id="fname" class="password-rect" placeholder ="First Name" required>
+        <div class="username-email">First Name</div>
+      </div>
+
+
+      <div class="sign-up-and-container">
+        <p class="sign-up-and">Sign up and be a part of the<br>20,000+ Coding School Family!</p>
+      </div>
+    </div>
+    <div class="welcome-message1">
+      <img class="couple-image-icon1" alt="" src="./public/couple-image@2x.png" /><b
+        class="welcome-to-coding-container">
+        <p class="sign-up-and">Welcome To</p>
+        <p class="sign-up-and">Coding School Family</p>
+      </b>
+    </div>
+    <div class="nav-bar-section6">
+      <div class="navbar-bg-box6"></div>
+      <button class="login-button7">
+        <div class="login1" id="loginText">Login</div>
+      </button>
+      <!-- <div class="more11">More ▼</div> -->
+      <div class="community12" id="communityText">Community</div>
+      <div class="our-courses11" id="ourCoursesText">Our Courses</div>
+      <div class="enroll-now7">Enroll Now</div>
+      <div class="coding-school11" id="cODINGSCHOOLContainer">
+        <div class="school11">SCHOOL</div>
+        <img class="coding-image-icon6" alt="" src="./public/coding-image@2x.png" />
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    var loginText = document.getElementById("loginText");
+    if (loginText) {
+      loginText.addEventListener("click", function (e) {
+        window.location.href = "./login-page.html";
+      });
+    }
+
+    var communityText = document.getElementById("communityText");
+    if (communityText) {
+      communityText.addEventListener("click", function (e) {
+        let name = "logged_in=";
+        let ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+          let c = ca[i];
+          while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+            if (c.substring(name.length, c.length) == '1') window.location.href = "./community.html";
+            else {
+              alert("Login to access this feature.");
+            }
+          }
+        }
+      });
+    }
+
+    var ourCoursesText = document.getElementById("ourCoursesText");
+    if (ourCoursesText) {
+      ourCoursesText.addEventListener("click", function (e) {
+        window.location.href = "./courses-page.html";
+      });
+    }
+
+    var cODINGSCHOOLContainer = document.getElementById("cODINGSCHOOLContainer");
+    if (cODINGSCHOOLContainer) {
+      cODINGSCHOOLContainer.addEventListener("click", function (e) {
+        window.location.href = "./front-page.html";
+      });
+    }
+  </script>
+  <script src="https://smtpjs.com/v3/smtp.js"> </script>
+  <script src="enroll-now.js"></script>
+  
+</body>
+
+</html>

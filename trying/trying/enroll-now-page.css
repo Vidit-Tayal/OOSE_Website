@@ -1,0 +1,283 @@
+.big-enroll-rect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  width: 503px;
+  height: 735px;
+}
+
+.enroll-now6 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--big-heading-font);
+  color: var(--color-white);
+  text-align: left;
+}
+
+.enroll-now-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-7xl);
+  background-color: var(--color-mediumslateblue);
+  position: absolute;
+  top: 653px;
+  left: 179px;
+  border-radius: var(--br-4xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.enroll-now-button:hover{
+  background-color: darkblue;
+
+}
+.sign-up-and:hover{
+  color:darkblue;
+}
+#ourCoursesText:hover{
+  color:slateblue;
+}
+#communityText:hover{
+  color:slateblue;
+}
+.login-button7:hover{
+  background-color: darkblue;
+}
+.email-address,
+.first-name1,
+.last-name1 {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--big-heading-font);
+  font-size: var(--font-size-5xl);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 486px;
+  left: 18px;
+  width: 435px;
+  height: 96px;
+}
+
+.first-name1,
+.last-name1 {
+  top: 323px;
+}
+
+.first-name1 {
+  top: 160px;
+}
+
+.sign-up-and {
+  margin: 0;
+}
+
+.sign-up-and-container {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  font-weight: 600;
+}
+
+.enrol-email {
+  position: absolute;
+  left: calc(50% - 233.5px);
+  top: 486px;
+  width: 435px;
+  height: 92px;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--big-heading-font);
+  color: var(--color-black);
+}
+.password-rect{
+  position: absolute;
+  left: calc(50% - 217.5px);
+  top: 49px;
+  background-color: var(--color-white);
+  width: 435px;
+  height: 43px;
+}
+.enrol-lastname {
+  position: absolute;
+  left: calc(50% - 233.5px);
+  top: 323px;
+  width: 435px;
+  height: 92px;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--big-heading-font);
+  color: var(--color-black);
+}
+.enrol-firstname {
+  position: absolute;
+  left: calc(50% - 233.5px);
+  top: 160px;
+  width: 435px;
+  height: 92px;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--big-heading-font);
+  color: var(--color-black);
+}
+
+
+
+
+
+.big-rect3 {
+  position: absolute;
+  top: 169px;
+  left: 759px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 503px;
+  height: 735px;
+  color: var(--color-mediumslateblue);
+}
+
+.couple-image-icon1 {
+  position: absolute;
+  top: 145px;
+  left: 0;
+  width: 451px;
+  height: 360px;
+  object-fit: cover;
+}
+
+.welcome-to-coding-container {
+  position: absolute;
+  top: 0;
+  left: 25px;
+}
+
+.welcome-message1 {
+  position: absolute;
+  top: 315px;
+  left: 179px;
+  width: 451px;
+  height: 505px;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+}
+
+.navbar-bg-box6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  width:100%;
+  height: 80px;
+}
+
+.login1 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--big-heading-font);
+  color: var(--color-white);
+  text-align: left;
+  cursor: pointer;
+}
+
+.login-button7 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-7xl);
+  background-color: var(--color-mediumslateblue);
+  position: absolute;
+  top: 24px;
+  left: 1205px;
+  border-radius: var(--br-4xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.more11 {
+  position: absolute;
+  top: 26px;
+  left: calc(50% + 295px);
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.community12 {
+  left: calc(50% + 78px);
+  cursor: pointer;
+}
+
+.community12,
+.enroll-now7,
+.our-courses11 {
+  position: absolute;
+  top: 26px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.our-courses11 {
+  left: calc(50% - 121px);
+  cursor: pointer;
+}
+
+.enroll-now7 {
+  left: calc(50% - 301px);
+  color: var(--color-mediumslateblue);
+}
+
+.school11 {
+  position: absolute;
+  top: 0;
+  left: calc(50% + 9px);
+  letter-spacing: 0.01em;
+  font-weight: 300;
+}
+
+.coding-image-icon6 {
+  position: absolute;
+  top: 8px;
+  left: calc(50% - 140px);
+  width: 143px;
+  height: 33px;
+  object-fit: cover;
+}
+
+.coding-school11 {
+  position: absolute;
+  top: 16px;
+  left: calc(50% - 703px);
+  width: 280px;
+  height: 48px;
+  cursor: pointer;
+  font-size: var(--font-size-13xl);
+}
+
+.nav-bar-section6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  font-size: var(--font-size-lg);
+}
+
+.enroll-now-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1027px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--big-heading-font);
+}

@@ -1,0 +1,518 @@
+.codingschoolgmailcom5 {
+  position: absolute;
+  left: calc(50% - 57.5px);
+  bottom: 0;
+  display: inline-block;
+  width: 264px;
+}
+.blue-tile5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-darkslateblue);
+  width: 100%;
+  height: 424px;
+}
+.login-button8:hover{
+  background-color: darkblue;
+}
+.coding-school-icon-footer-child3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 384px;
+  height: 128px;
+}
+.coding-school12 {
+  position: absolute;
+  top: 30px;
+  left: 46px;
+  -webkit-text-stroke: 1px #fffdfd;
+}
+.coding-school-icon-footer5 {
+  position: absolute;
+  top: 673px;
+  left: 72px;
+  width: 384px;
+  height: 128px;
+  display: none;
+  color: var(--color-gray-100);
+}
+.contact-us5,
+.emails5 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 77.5px);
+}
+.contact-us5 {
+  bottom: 52px;
+  left: calc(50% - 78.5px);
+  font-size: var(--font-size-lg);
+}
+.contact-section5,
+.linkedin-svg-icon5 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 78.5px);
+  width: 157px;
+  height: 79px;
+}
+.linkedin-svg-icon5 {
+  left: calc(50% - 56.5px);
+  width: 23px;
+  height: 23px;
+  overflow: hidden;
+}
+.get-in-touch5 {
+  position: absolute;
+  bottom: 30px;
+  left: calc(50% - 57.5px);
+}
+.get-in-touch-section5 {
+  position: absolute;
+  bottom: 98px;
+  left: calc(50% - 78.5px);
+  width: 115px;
+  height: 57px;
+  font-size: var(--font-size-lg);
+}
+.footer-column-35 {
+  position: absolute;
+  bottom: 120px;
+  left: calc(50% + 339px);
+  width: 157px;
+  height: 155px;
+  font-size: var(--font-size-base);
+}
+.our-courses12 {
+  position: absolute;
+  bottom: 108px;
+  left: calc(50% - 56px);
+  font-weight: 500;
+}
+.community13,
+.more12 {
+  position: absolute;
+  left: calc(50% - 55px);
+  font-weight: 500;
+}
+.community13 {
+  bottom: 54px;
+  cursor: pointer;
+}
+.more12 {
+  bottom: 0;
+}
+.footer-column-25 {
+  position: absolute;
+  bottom: 120px;
+  left: calc(50% + 50px);
+  width: 112px;
+  height: 135px;
+  font-size: var(--font-size-lg);
+}
+.thecodingschoolgmailcom {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 251px);
+}
+.youtube-as-our {
+  margin: 0;
+}
+.coding-school-is-container5 {
+  position: absolute;
+  bottom: 56px;
+  left: calc(50% - 251px);
+  text-align: justify;
+}
+.footer-column-15 {
+  position: absolute;
+  bottom: 57px;
+  left: calc(50% - 627px);
+  width: 502px;
+  height: 191px;
+  font-size: var(--font-size-lg);
+}
+.school12 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% + 5.5px);
+  letter-spacing: 0.01em;
+  font-weight: 300;
+}
+.coding-footer-logo5 {
+  position: absolute;
+  bottom: 13.86px;
+  left: calc(50% - 168.5px);
+  width: 164.64px;
+  height: 32.16px;
+  object-fit: cover;
+}
+.coding-school-footer5 {
+  position: absolute;
+  bottom: 282px;
+  left: calc(50% - 627px);
+  width: 337px;
+  height: 60px;
+  cursor: pointer;
+}
+.footer5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 424px;
+  text-align: left;
+  font-size: var(--big-heading-font-size);
+  color: var(--color-white);
+}
+.big-rect4,
+.course-image-icon2 {
+  position: absolute;
+  left: calc(50% - 190px);
+  width: 380px;
+}
+.big-rect4 {
+  bottom: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 431px;
+}
+.course-image-icon2 {
+  bottom: 180px;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  height: 254px;
+  object-fit: cover;
+}
+.course-text2 {
+  position: absolute;
+  bottom: 61px;
+  left: calc(50% - 145px);
+  font-weight: 600;
+  display: inline-block;
+  width: 289px;
+}
+.explore-now-box4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-steelblue);
+  position: absolute;
+  bottom: 17px;
+  left: calc(50% - 88px);
+  border-radius: var(--br-27xl);
+  width: 176px;
+  height: 32px;
+}
+.explore-now {
+  position: absolute;
+  bottom: 21px;
+  left: calc(50% - 50px);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-white);
+}
+.csa,
+.rect-1 {
+  position: absolute;
+  left: calc(50% - 193px);
+}
+.rect-1 {
+  bottom: 0;
+  width: 380px;
+  height: 434px;
+}
+.csa {
+  bottom: 463px;
+  font-size: var(--font-size-5xl);
+  text-align: left;
+}
+.csa-courses {
+  position: absolute;
+  bottom: 550px;
+  left: calc(50% - 623px);
+  width: 386px;
+  height: 499px;
+}
+.course-text3 {
+  position: absolute;
+  bottom: 91px;
+  left: calc(50% - 145px);
+  font-weight: 600;
+  display: inline-block;
+  width: 289px;
+}
+.rect-2 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% + 26px);
+  width: 380px;
+  height: 434px;
+}
+.course-text4 {
+  position: absolute;
+  bottom: 121px;
+  left: calc(50% - 145px);
+  font-weight: 600;
+  display: inline-block;
+  width: 289px;
+}
+.rect-11,
+.se {
+  position: absolute;
+  left: calc(50% - 406px);
+}
+.rect-11 {
+  bottom: 3px;
+  width: 380px;
+  height: 434px;
+}
+.se {
+  bottom: 466px;
+  font-size: var(--font-size-5xl);
+  text-align: left;
+}
+.rect-21,
+.rect-3,
+.se-courses {
+  position: absolute;
+  bottom: 1122px;
+  left: calc(50% - 622px);
+  width: 812px;
+  height: 502px;
+}
+.rect-21,
+.rect-3 {
+  bottom: 3px;
+  left: calc(50% + 242.5px);
+  width: 380px;
+  height: 434px;
+}
+.rect-21 {
+  bottom: 0;
+  left: calc(50% - 190.5px);
+}
+.dbms,
+.rect-12 {
+  position: absolute;
+  left: calc(50% - 622.5px);
+}
+.rect-12 {
+  bottom: 3px;
+  width: 380px;
+  height: 434px;
+}
+.dbms {
+  bottom: 466px;
+  font-size: var(--font-size-5xl);
+  text-align: left;
+}
+.dbms-courses,
+.dsa-courses,
+.ml-courses {
+  position: absolute;
+  bottom: 1697px;
+  left: calc(50% - 623px);
+  width: 1245px;
+  height: 502px;
+}
+.dsa-courses,
+.ml-courses {
+  bottom: 2272px;
+  width: 812px;
+}
+.dsa-courses {
+  bottom: 2847px;
+  left: calc(50% - 622px);
+  width: 1245px;
+}
+.rect-15,
+.rect-24 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 190.5px);
+  width: 380px;
+  height: 434px;
+  cursor: pointer;
+}
+.rect-15 {
+  bottom: 3px;
+  left: calc(50% - 622.5px);
+}
+.programming-languages-courses {
+  position: absolute;
+  bottom: 3422px;
+  left: calc(50% - 622px);
+  width: 1245px;
+  height: 502px;
+}
+.quote-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #80ba4f;
+  width: 100%;
+  height: 123px;
+}
+.an-investment-in {
+  margin: 0;
+  font-weight: 300;
+}
+.benjamin-franklin {
+  margin: 0;
+  font-size: 28px;
+}
+.quote {
+  position: absolute;
+  top: 18px;
+  left: 335px;
+  letter-spacing: 0.01em;
+  align-content: center;
+}
+.qoute-box {
+  position: absolute;
+  top: 129px;
+  left: 0;
+  width: 100%;
+  height: 123px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.navbar-bg-box7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 80px;
+}
+.community14,
+.more13 {
+  position: absolute;
+  top: 26px;
+}
+.more13 {
+  left: 1015px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.community14 {
+  left: 798px;
+  cursor: pointer;
+}
+.community14,
+.enroll-now8,
+.login2,
+.our-courses13 {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.our-courses13 {
+  position: absolute;
+  top: 26px;
+  left: 599px;
+  color: var(--color-mediumslateblue);
+}
+.enroll-now8,
+.login2 {
+  cursor: pointer;
+}
+.enroll-now8 {
+  position: absolute;
+  top: 26px;
+  left: 419px;
+}
+.enroll-now8:hover{
+  color:slateblue;
+}
+.community14:hover{
+  color:slateblue;
+}
+.our-courses12:hover{
+  color:yellow;
+}
+#communityText:hover{
+  color:yellow;
+}
+.explore-now-box4:hover{
+  background-color: darkblue;
+}
+
+.big-rect4:hover{
+  scale:1.01;
+}
+.login2 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--big-heading-font);
+  color: var(--color-white);
+  text-align: left;
+}
+
+.login-button8 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-7xl);
+  background-color: var(--color-mediumslateblue);
+  position: absolute;
+  top: 24px;
+  left: 85%;
+  border-radius: var(--br-4xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.school13 {
+  position: absolute;
+  top: 0;
+  left: 149px;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+}
+.coding-image-icon7 {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 143px;
+  height: 33px;
+  object-fit: cover;
+}
+.coding-school13 {
+  position: absolute;
+  top: 16px;
+  left: 17px;
+  width: 280px;
+  height: 48px;
+  cursor: pointer;
+  font-size: var(--font-size-13xl);
+}
+.nav-bar-section7 {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  width: 100%;
+  height: 80px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.courses-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 4224px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--big-heading-font);
+}

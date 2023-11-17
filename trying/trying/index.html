@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" />
+  <link rel="icon" href="favicon.ico">
+  <title>Coding School 🔥</title>
+  
+</head>
+
+<body>
+  <div class="profile-page">
+    <div class="footer">
+      <div class="blue-tile"></div>
+      <div class="coding-school-icon-footer">
+        <div class="coding-school-icon-footer-child"></div>
+        <div class="coding-school">Coding School</div>
+      </div>
+      <div class="footer-column-3">
+        <div class="contact-section">
+          <div class="emails">
+            <p class="viditgmailcom">vidit@gmail.com</p>
+            <p class="viditgmailcom">&nbsp;</p>
+            <p class="viditgmailcom">snehal@gmail.com</p>
+          </div>
+          <div class="contact-us">Contact Us</div>
+        </div>
+        <div class="get-in-touch-section">
+          <img class="linkedin-svg-icon" alt="" src="./public/linkedin-svg.svg" />
+          <div class="codingschoolgmailcom">thecodingschool49@gmail.com</div>
+          <div class="get-in-touch">Get in Touch</div>
+        </div>
+      </div>
+      <div class="footer-column-2">
+        <div class="our-courses" id="ourCoursesText">Our Courses</div>
+        <div class="community" id="communityText">Community</div>
+        <!-- <div class="more">More</div> -->
+        <div class="menu">Menu</div>
+      </div>
+      <div class="footer-column-1">
+        <div class="coding-school-is-container">
+          <p class="viditgmailcom">
+            Coding School is started with a mission to provide
+          </p>
+          <p class="viditgmailcom">
+            affordable & high quality education for everyone.
+          </p>
+          <p class="viditgmailcom">
+            With YouTube as our technology partner, we wish
+          </p>
+          <p class="viditgmailcom">
+            to bring all our courses with best quality content to
+          </p>
+          <p class="viditgmailcom">
+            our students at affordable price with lifetime access.
+          </p>
+        </div>
+      </div>
+      <div class="coding-school-footer">
+        <div class="school">SCHOOL</div>
+        <img class="coding-footer-logo" alt="" src="./public/coding-footer-logo@2x.png" />
+      </div>
+    </div>
+    <div class="course-2" id="course2Container">
+      <div class="big-rect"></div>
+        <button class="explore-now-box" onclick="course_less_than_90()"></button>
+        <div class="certificate" onclick="course_less_than_90()">Certificate</div>
+      <button class="progress-2">
+        <button class="explore-now-box1"></button>
+        <div class="div">0%</div>
+      </button><img class="course-image-icon" alt="" src="./public/course-image@2x.png" />
+      <div class="course-text">C++ Full Course | C++ Tutorial |</div>
+    </div>
+    <div class="course-1" id="course1Container">
+      <div class="big-rect"></div>
+      <img class="course-image-icon" alt="" src="./public/course-image1@2x.png" />
+      <div class="course-text">
+        The ultimate JavaScript course for Beginners
+      </div>
+      <button class="progress-1"> 
+        <button class="explore-now-box1"></button>
+        <div class="div">92%</div>
+      </button>
+    
+      <!-- JS CERT -->
+      <a href="JS Course Completion Certificate.pdf" download>
+      <button class="certificate-1">
+        <button class="explore-now-box"></button>
+        <div class="certificate">Certificate</div>
+      </button>
+      </a>
+    </div>
+    
+    <b class="courses-youre-enrolled">Courses you’re enrolled in</b>
+    <div class="profile-details">
+      <img class="profile-logo-icon" alt="" src="./public/profile-logo@2x.png" />
+      <b class="person-name">Vidit Tayal</b>
+      <div class="userid">vidittayal_</div>
+    </div>
+    <div class="nav-bar-section">
+      <div class="navbar-bg-box"></div>
+      <!-- <img class="profile-button-icon" alt="" src="./public/profile-button.svg" /> -->
+      <!-- <div class="more1">More ▼</div> -->
+      <div class="community1" id="communityText1">Community</div>
+      <div class="our-courses1" id="ourCoursesText1">Our Courses</div>
+      <div class="enroll-now" id="enrollNowText">Enroll Now</div>
+      <button class="login-button">
+        <div class="log-out" id="logoutText">Log out</div>
+      </button>
+      <div class="coding-school1" id="cODINGSCHOOLContainer">
+        <div class="school1">SCHOOL</div>
+        <img class="coding-image-icon" alt="" src="./public/coding-image@2x.png" />
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var logoutText = document.getElementById("logoutText");
+    if (logoutText) {
+        logoutText.addEventListener("click", function (e) {
+          if(document.cookie.includes("logged_in=1")){
+            logoutText.innerHTML = "Login";
+            document.cookie = "logged_in=0";
+            window.location.href = "./front-page.html";
+          }else{
+            document.cookie = "logged_in=0";
+            alert("You must login to access this conent");
+            window.location.href = "./login-page.html";            
+          }
+        
+      });
+    }
+
+
+
+    var btn = document.getElementById("ourCoursesText");
+   
+    
+    function course_less_than_90(){
+      alert("Cannot download certificate as course progress is less than 90%\nFinish the course to get access to the Certificate");
+    }
+
+    var communityText = document.getElementById("communityText");
+    if (communityText) {
+      communityText.addEventListener("click", function (e) {
+        let name = "logged_in=";
+        let ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+          let c = ca[i];
+          while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+            if (c.substring(name.length, c.length) == '1') window.location.href = "./community.html";
+            else {
+              alert("Login to access this feature.");
+            }
+          }
+        }
+      });
+    }
+
+    var course2Container = document.getElementById("course2Container");
+    if (course2Container) {
+      course2Container.addEventListener("click", function (e) {
+        window.location.href = "./apna-college-c-purchased-course-page.html";
+      });
+    }
+
+    var course1Container = document.getElementById("course1Container");
+    if (course1Container) {
+      course1Container.addEventListener("click", function (e) {
+        window.location.href = "./purchased-particular-course-page.html";
+      });
+    }
+
+    var communityText1 = document.getElementById("communityText1");
+    if (communityText1) {
+      communityText1.addEventListener("click", function (e) {
+        let name = "logged_in=";
+        let ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+          let c = ca[i];
+          while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+            if (c.substring(name.length, c.length) == '1') window.location.href = "./community.html";
+            else {
+              alert("Login to access this feature.");
+            }
+          }
+        }
+      });
+    }
+
+    var ourCoursesText1 = document.getElementById("ourCoursesText1");
+    if (ourCoursesText1) {
+      ourCoursesText1.addEventListener("click", function (e) {
+        window.location.href = "./courses-page.html";
+      });
+    }
+
+    var enrollNowText = document.getElementById("enrollNowText");
+    if (enrollNowText) {
+      enrollNowText.addEventListener("click", function (e) {
+        window.location.href = "./enroll-now-page.html";
+      });
+    }
+
+    var cODINGSCHOOLContainer = document.getElementById("cODINGSCHOOLContainer");
+    if (cODINGSCHOOLContainer) {
+      cODINGSCHOOLContainer.addEventListener("click", function (e) {
+        window.location.href = "./front-page.html";
+      });
+    }
+  </script>
+</body>
+
+</html>
